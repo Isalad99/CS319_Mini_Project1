@@ -63,6 +63,13 @@ body {
   height: 90px;
   border: 2px solid #333;
   border-radius: 16px;
+  overflow: hidden;
+}
+
+.company_logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .company_info h2 {
@@ -215,6 +222,13 @@ body {
   border: 1px solid #333;
   border-radius: 12px;
   flex-shrink: 0;
+  overflow: hidden;
+}
+
+.job_card_logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .job_card_description {
