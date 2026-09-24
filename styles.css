@@ -216,6 +216,26 @@ body {
   gap: 12px;
 }
 
+.job_card_link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.job_card {
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.job_card_link:hover .job_card {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.job_card_link:hover .job_card_name {
+  color: #0056b3;
+}
+
 .job_card_logo {
   width: 50px;
   height: 50px;
